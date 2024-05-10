@@ -1,0 +1,100 @@
+.logo{
+
+display: inline-block;
+
+
+}
+
+.festa {
+    position: absolute;
+    left: 270px;
+    top: 80px;
+    
+}
+
+
+
+.botaos{
+ position: absolute;
+ display: inline-block;
+ left: 500px;
+ top: 30px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #D03A53;
+    color: #fff;
+    z-index: 1000;
+    padding: 10px 0;
+}
+
+.logo h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    margin-top: 80px; /* ajuste para o cabeçalho fixo */
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+footer {
+   position: absolute;
+    background-color:#D03A53;
+    color: #fff;
+    padding: 20px 0;
+    width: 100%;
+    text-align: center;
+    top: 1050px;
+    left: 0px;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+}
